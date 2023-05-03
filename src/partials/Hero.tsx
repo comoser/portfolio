@@ -44,7 +44,7 @@ const Hero = () => (
           </a>
           <a href="/">
             <HeroSocial
-              src="/assets/images/facebook-icon.png?nf_resize=fit&w=35&h=35"
+              src="/assets/images/facebook-icon.png?nf_resize=fit&w=48&h=48"
               alt="Facebook icon"
             />
           </a>
