@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: Typography example
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
 pubDate: 2020-02-06T00:00:00Z
-imgSrc: '/assets/images/image-post.jpeg?nf_resize=fit&w=1080&h=720'
+imgSrc: '/assets/images/image-post.jpeg?nf_resize=smartcrop&w=1080&h=720'
 imgAlt: 'Image post'
 ---
 

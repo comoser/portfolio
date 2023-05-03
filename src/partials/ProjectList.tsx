@@ -22,7 +22,7 @@ const ProjectList = () => (
         hendrerit dui odio id enim."
         link="/"
         img={{
-          src: '/assets/images/project-web-design.png?nf_resize=fit&w=200&h=200',
+          src: '/assets/images/project-web-design.png?nf_resize=smartcrop&w=200&h=200',
           alt: 'Project Web Design',
         }}
         category={
@@ -41,7 +41,7 @@ const ProjectList = () => (
         hendrerit dui odio id enim."
         link="/"
         img={{
-          src: '/assets/images/project-fire.png?nf_resize=fit&w=200&h=200',
+          src: '/assets/images/project-fire.png?nf_resize=smartcrop&w=200&h=200',
           alt: 'Project Fire',
         }}
         category={
@@ -59,7 +59,7 @@ const ProjectList = () => (
         hendrerit dui odio id enim."
         link="/"
         img={{
-          src: '/assets/images/project-maps.png?nf_resize=fit&w=200&h=200',
+          src: '/assets/images/project-maps.png?nf_resize=smartcrop&w=200&h=200',
           alt: 'Project Maps',
         }}
         category={
