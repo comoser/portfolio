@@ -4,12 +4,12 @@ import type { ReactNode } from 'react';
 
 import { AppConfig } from '@/utils/AppConfig';
 
-type IBlogPostProps = {
+type IArticleProps = {
   frontmatter: IFrontmatter;
   children: ReactNode;
 };
 
-const BlogPost = (props: IBlogPostProps) => (
+const Article = (props: IArticleProps) => (
   <Section>
     <PostHeader content={props.frontmatter} author={AppConfig.author} />
 
@@ -17,4 +17,4 @@ const BlogPost = (props: IBlogPostProps) => (
   </Section>
 );
 
-export { BlogPost };
+export { Article };

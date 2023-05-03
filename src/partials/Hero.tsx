@@ -10,53 +10,96 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hey! I'm <GradientText>David Alecrim</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+          I'm a senior <del>software</del> product engineer with 8+ years in the
+          industry, currently working at{' '}
+          <a className="text-cyan-400 hover:underline" href="https://xgeeks.io">
+            xgeeks
+          </a>
+          . I've worked in multiple enterprise level products for a lot of known
+          brands like{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://www.mercedes-benz.com/en/"
+          >
+            Mercedes-Benz
+          </a>
+          ,{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://www.saloodo.com/"
+          >
+            Saloodo (DHL)
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
+          or{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://www.cazoo.co.uk/"
+          >
+            cazoo
+          </a>
+          .<br></br>
+          <br></br>
+          I'm keen on sharing my knowledge and I love to do that through
+          mentoring, articles, talks and open source. I've contributed to some
+          big projects like{' '}
+          <a
+            className="text-violet-500 hover:underline"
+            href="https://www.gatsbyjs.com/"
+          >
+            Gatsby
+          </a>
+          ,{' '}
+          <a
+            className="text-yellow-400 hover:underline"
+            href="https://babeljs.io/"
+          >
+            Babel
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          or{' '}
+          <a
+            className="text-red-400 hover:underline"
+            href="https://www.raycast.com/"
+          >
+            Raycast
+          </a>
+          , besides doing some creations of my own.
+          <br></br>
+          <br></br>
+          One of my biggest achievements though was the fact that I helped grow
+          a team of 2 engineers to 100+ in 4 years, being able to heavily
+          influence company and engineering culture.
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg?nf_resize=smartcrop&w=250&h=330"
+          className="h-80 w-64 object-contain"
+          src="/assets/images/avatar.png?nf_resize=fit&&h=330"
           alt="Avatar image"
         />
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://github.com/comoser" className="mr-3">
             <HeroSocial
-              src="/assets/images/twitter-icon.png?nf_resize=smartcrop&w=72&h=72"
-              alt="Twitter icon"
+              src="/assets/images/github-icon.png?nf_resize=smartcrop&w=144&h=144"
+              alt="Github icon"
             />
           </a>
-          <a href="/">
+          <a href="https://medium.com/@davidalecrim" className="mr-3">
             <HeroSocial
-              src="/assets/images/facebook-icon.png?nf_resize=smartcrop&w=72&h=72"
-              alt="Facebook icon"
+              src="/assets/images/medium-icon.png?nf_resize=smartcrop&w=144&h=144"
+              alt="Medium icon"
             />
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/david-alecrim/">
             <HeroSocial
-              src="/assets/images/linkedin-icon.png?nf_resize=smartcrop&w=72&h=72"
+              src="/assets/images/linkedin-icon.png?nf_resize=smartcrop&w=144&h=144"
               alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png?nf_resize=smartcrop&w=72&h=72"
-              alt="Youtube icon"
             />
           </a>
         </>
