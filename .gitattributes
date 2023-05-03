@@ -13,3 +13,9 @@ public/assets/images/image-post6.jpeg filter=lfs diff=lfs merge=lfs -text
 public/assets/images/project-fire.png filter=lfs diff=lfs merge=lfs -text
 public/assets/images/project-web-design.png filter=lfs diff=lfs merge=lfs -text
 public/assets/images/image-post7.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/project-simple-reminder.png filter=lfs diff=lfs merge=lfs -text
+public/assets/images/avatar.png filter=lfs diff=lfs merge=lfs -text
+public/assets/images/github-icon.png filter=lfs diff=lfs merge=lfs -text
+public/assets/images/medium-icon.png filter=lfs diff=lfs merge=lfs -text
+public/assets/images/project-github.png filter=lfs diff=lfs merge=lfs -text
+public/assets/images/project-micro-frontends.png filter=lfs diff=lfs merge=lfs -text
