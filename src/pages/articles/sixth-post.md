@@ -118,7 +118,7 @@ Some text to show that the reference links can follow later.
 Images included in _\_posts_ folder are lazy loaded.
 
 Inline-style:
-![alt text](/src/images/random.jpeg 'Logo Title Text 1')
+There was an image here pointing to /src/images/img.png
 
 ## Table
 
