@@ -31,32 +31,31 @@ const Hero = () => (
           className="h-80 w-64"
           src="/assets/images/avatar.svg?nf_resize=fit&w=250&h=330"
           alt="Avatar image"
-          loading="lazy"
         />
       }
       socialButtons={
         <>
           <a href="/">
             <HeroSocial
-              src="/assets/images/twitter-icon.png?nf_resize=fit&w=60&h=60"
+              src="/assets/images/twitter-icon.png?nf_resize=fit&w=72&h=72"
               alt="Twitter icon"
             />
           </a>
           <a href="/">
             <HeroSocial
-              src="/assets/images/facebook-icon.png?nf_resize=fit&w=60&h=60"
+              src="/assets/images/facebook-icon.png?nf_resize=fit&w=72&h=72"
               alt="Facebook icon"
             />
           </a>
           <a href="/">
             <HeroSocial
-              src="/assets/images/linkedin-icon.png?nf_resize=fit&w=60&h=60"
+              src="/assets/images/linkedin-icon.png?nf_resize=fit&w=72&h=72"
               alt="Linkedin icon"
             />
           </a>
           <a href="/">
             <HeroSocial
-              src="/assets/images/youtube-icon.png?nf_resize=fit&w=60&h=60"
+              src="/assets/images/youtube-icon.png?nf_resize=fit&w=72&h=72"
               alt="Youtube icon"
             />
           </a>
