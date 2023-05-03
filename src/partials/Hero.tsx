@@ -38,25 +38,25 @@ const Hero = () => (
         <>
           <a href="/">
             <HeroSocial
-              src="/assets/images/twitter-icon.png"
+              src="/assets/images/twitter-icon.png?nf_resize=fit&w=60&h=60"
               alt="Twitter icon"
             />
           </a>
           <a href="/">
             <HeroSocial
-              src="/assets/images/facebook-icon.png?nf_resize=fit&w=48&h=48"
+              src="/assets/images/facebook-icon.png?nf_resize=fit&w=60&h=60"
               alt="Facebook icon"
             />
           </a>
           <a href="/">
             <HeroSocial
-              src="/assets/images/linkedin-icon.png"
+              src="/assets/images/linkedin-icon.png?nf_resize=fit&w=60&h=60"
               alt="Linkedin icon"
             />
           </a>
           <a href="/">
             <HeroSocial
-              src="/assets/images/youtube-icon.png"
+              src="/assets/images/youtube-icon.png?nf_resize=fit&w=60&h=60"
               alt="Youtube icon"
             />
           </a>

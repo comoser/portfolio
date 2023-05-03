@@ -22,7 +22,7 @@ const ProjectList = () => (
         hendrerit dui odio id enim."
         link="/"
         img={{
-          src: '/assets/images/project-web-design.png',
+          src: '/assets/images/project-web-design.png?nf_resize=fit&w=200&h=200',
           alt: 'Project Web Design',
         }}
         category={
@@ -40,7 +40,10 @@ const ProjectList = () => (
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
         link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        img={{
+          src: '/assets/images/project-fire.png?nf_resize=fit&w=200&h=200',
+          alt: 'Project Fire',
+        }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Next.js</Tags>
@@ -55,7 +58,10 @@ const ProjectList = () => (
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
         link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        img={{
+          src: '/assets/images/project-maps.png?nf_resize=fit&w=200&h=200',
+          alt: 'Project Maps',
+        }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
