@@ -35,3 +35,6 @@ public/assets/images/linkedin-icon.webp filter=lfs diff=lfs merge=lfs -text
 public/assets/images/project-micro-frontends.webp filter=lfs diff=lfs merge=lfs -text
 public/assets/images/image-post.webp filter=lfs diff=lfs merge=lfs -text
 public/assets/images/medium-icon.webp filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-interview.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-rn-bg.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-test-react.webp filter=lfs diff=lfs merge=lfs -text
