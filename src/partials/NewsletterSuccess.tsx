@@ -2,7 +2,7 @@ import { GradientText, Section } from 'astro-boilerplate-components';
 
 const NewsletterSuccess = () => (
   <Section>
-    <div className="w-100 my-16 flex h-16 flex-col items-center justify-center md:my-64 md:h-36">
+    <div className="w-100 my-32 flex h-32 flex-col items-center justify-center md:my-64 md:h-36">
       <GradientText>
         <h1 className="text-6xl">Thank you!</h1>
       </GradientText>
