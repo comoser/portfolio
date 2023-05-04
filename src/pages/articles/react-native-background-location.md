@@ -367,7 +367,7 @@ The onStartCommand method is the base of the service and it’s responsible for:
 
 Don’t forget that for your app to be able to use foreground services, it must declare the permissions for it in the manifest file with:
 
-- `<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />`
+- `<uses-permission android:name= "android.permission.FOREGROUND_SERVICE" />`
 
 ---
 
@@ -495,4 +495,3 @@ I hope you liked this simple demo and most of all, I hope it helps you in your p
 
 I would also love your feedback 🙂
 If you find this article interesting, please share it, because you know — Sharing is caring!
-~~~~
