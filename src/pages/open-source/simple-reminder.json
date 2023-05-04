@@ -3,7 +3,7 @@
   "description": "A raycast extension to simplify your life. Set your reminders in plain english without the need to have any application installed and be notified when the time is right, even in your mobile device!",
   "link": "https://www.raycast.com/comoser/simple-reminder",
   "img": {
-    "src": "/assets/images/project-simple-reminder.png?nf_resize=fit&w=250&h=250",
+    "src": "/assets/images/project-simple-reminder.webp?nf_resize=fit&w=250&h=250",
     "alt": "Simple Reminder"
   },
   "order": 1,

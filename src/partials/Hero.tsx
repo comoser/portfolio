@@ -78,7 +78,7 @@ const Hero = () => (
       avatar={
         <img
           className="h-64 w-64 md:h-96 md:w-96"
-          src="/assets/images/avatar.png?nf_resize=fit&&h=330"
+          src="/assets/images/avatar.webp?nf_resize=fit&&h=330"
           alt="Avatar image"
         />
       }
@@ -86,19 +86,19 @@ const Hero = () => (
         <>
           <a href="https://github.com/comoser" className="mr-3">
             <HeroSocial
-              src="/assets/images/github-icon.png?nf_resize=fit&w=144&h=144"
+              src="/assets/images/github-icon.webp?nf_resize=fit&w=144&h=144"
               alt="Github icon"
             />
           </a>
           <a href="https://medium.com/@davidalecrim" className="mr-3">
             <HeroSocial
-              src="/assets/images/medium-icon.png?nf_resize=fit&w=144&h=144"
+              src="/assets/images/medium-icon.webp?nf_resize=fit&w=144&h=144"
               alt="Medium icon"
             />
           </a>
           <a href="https://www.linkedin.com/in/david-alecrim/">
             <HeroSocial
-              src="/assets/images/linkedin-icon.png?nf_resize=fit&w=144&h=144"
+              src="/assets/images/linkedin-icon.webp?nf_resize=fit&w=144&h=144"
               alt="Linkedin icon"
             />
           </a>
