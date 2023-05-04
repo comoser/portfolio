@@ -3,15 +3,25 @@ import type { IFrontmatter } from 'astro-boilerplate-components';
 
 import { CTA } from '@/partials/CTA';
 import { Hero } from '@/partials/Hero';
-import { RecentProjects } from '../partials/RecentProjects';
-import { RecentArticles } from '../partials/RecentArticles';
+import { RecentProjects } from '@/partials/RecentProjects';
+import { RecentArticles } from '@/partials/RecentArticles';
+import { RecentTalks } from '@/partials/RecentTalks';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
-import { sortByDate } from '../utils/ArticlesSortPredicate';
+import { sortByDate } from '@/utils/DateSortPredicate';
+import { sortByOrder } from '@/utils/OrderSortPredicate';
 
 const allPosts = await Astro.glob<IFrontmatter>('./articles/*.md');
 const sortedPosts = sortByDate(allPosts);
 const lastThreePosts = sortedPosts.slice(0, 3);
+
+const allTalks = await Astro.glob<IFrontmatter>('./talks/*.md');
+const sortedTalks = sortByDate(allTalks);
+const lastThreeTalks = sortedTalks.slice(0, 3);
+
+const allProjects = await Astro.glob('./open-source/*.json');
+const sortedProjects = sortByOrder(allProjects);
+const lastThreeProjects = sortedProjects.slice(0, 3);
 
 const { title } = AppConfig;
 const { description } = AppConfig;
@@ -19,7 +29,8 @@ const { description } = AppConfig;
 
 <Base head={{ title, description }}>
   <Hero />
-  <RecentProjects />
+  <RecentProjects projectList={lastThreeProjects} />
   <RecentArticles postList={lastThreePosts} />
+  <RecentTalks talkList={lastThreeTalks} />
   <CTA />
 </Base>

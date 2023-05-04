@@ -1,0 +1,28 @@
+{
+  "title": "React Native Background Location",
+  "description": "I created this demo version of a solution I implemented for a client. It's basically a system for background location with short intervals of wake ups implemented natively in Java for React Native applications.",
+  "link": "https://github.com/comoser/rn-background-location",
+  "img": {
+    "src": "/assets/images/project-github.png?nf_resize=fit&w=250&h=250",
+    "alt": "React Native Background Location"
+  },
+  "order": 5,
+  "categories": [
+    {
+      "color": "LIME",
+      "name": "Open Source"
+    },
+    {
+      "color": "STONE",
+      "name": "Java"
+    },
+    {
+      "color": "BLUE",
+      "name": "TypeScript"
+    },
+    {
+      "color": "SKY",
+      "name": "React Native"
+    }
+  ]
+}

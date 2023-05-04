@@ -33,9 +33,9 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="https://github.com/comoser">Open Source</NavMenuItem>
+        <NavMenuItem href="/open-source">Open Source</NavMenuItem>
         <NavMenuItem href="/articles">Articles</NavMenuItem>
-        <NavMenuItem href="/">Talks</NavMenuItem>
+        <NavMenuItem href="/talks">Talks</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>

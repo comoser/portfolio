@@ -20,11 +20,11 @@ type GetStaticPaths = {
 }; // Overrides `GetStaticPathsOptions` types from Astro
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-  const allPosts = await Astro.glob<IFrontmatter>('./*.md');
-  const sortedPosts = sortByDate(allPosts);
+  const allTalks = await Astro.glob<IFrontmatter>('./*.md');
+  const sortedTalks = sortByDate(allTalks);
 
   // Return a paginated collection of paths for all posts
-  return paginate(sortedPosts, { pageSize: 6 });
+  return paginate(sortedTalks, { pageSize: 6 });
 }
 
 interface Props {
@@ -33,17 +33,17 @@ interface Props {
 
 const { page } = Astro.props as Props;
 const titleSuffix = ` - ${AppConfig.site_name}`;
-const titleBase = `Article ${page.currentPage}`;
+const titleBase = `Talk ${page.currentPage}`;
 const title = titleBase + titleSuffix;
 const description =
-  'Article list';
+  'Talk list';
 ---
 
 <Base head={{ title, description }}>
   <Section>
     <PaginationHeader
-      title='My articles'
-      description='I love to write, so sharing my knowledge through this medium is great for me. All these articles are also in Medium, so feel free to drop a comment either there, or to myself directly!'
+      title='My talks'
+      description='Talks are a part of my strategy to share knowledge, so here are a list of them. Hopefully it will grow over time!'
     />
   </Section>
 

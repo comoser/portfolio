@@ -77,7 +77,7 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="h-80 w-64 object-contain"
+          className="h-64 w-64 md:h-96 md:w-96"
           src="/assets/images/avatar.png?nf_resize=fit&&h=330"
           alt="Avatar image"
         />

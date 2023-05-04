@@ -1,0 +1,57 @@
+---
+import {
+  BlogGallery, ColorTags,
+  NewerOlderPagination,
+  PaginationHeader, Project,
+  Section, Tags,
+} from 'astro-boilerplate-components';
+import { Page } from 'astro';
+
+import { AllProjects } from '@/partials/AllProjects';
+import { CTA } from '@/partials/CTA';
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+import { sortByOrder } from '@/utils/OrderSortPredicate';
+
+type GetStaticPaths = {
+  paginate: any;
+}; // Overrides `GetStaticPathsOptions` types from Astro
+
+export async function getStaticPaths({ paginate }: GetStaticPaths) {
+  const allProjects = await Astro.glob('./*.json');
+  const sortedProjects = sortByOrder(allProjects);
+
+  // Return a paginated collection of paths for all projects
+  return paginate(sortedProjects, { pageSize: 6 });
+}
+
+interface Props {
+  page: Page;
+}
+
+const { page } = Astro.props as Props;
+const titleSuffix = ` - ${AppConfig.site_name}`;
+const titleBase = `Open Source ${page.currentPage}`;
+const title = titleBase + titleSuffix;
+const description =
+  'Open Source Creations';
+---
+
+<Base head={{ title, description }}>
+  <Section>
+    <PaginationHeader
+      title="My open-source creations"
+      description="It's a great feeling to be helpful to other fellow engineers. That's what drives me create these open-sourced solutions and demos."
+    />
+  </Section>
+
+  <Section>
+      <AllProjects allProjects={page.data} />
+  </Section>
+
+  <Section>
+      <NewerOlderPagination page={page} />
+  </Section>
+
+  <CTA />
+</Base>

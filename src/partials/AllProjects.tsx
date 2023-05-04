@@ -1,6 +1,5 @@
 import {
   ColorTags,
-  GradientText,
   Project as ProjectComponent,
   Section,
   Tags,
@@ -8,22 +7,10 @@ import {
 
 import type { Project } from '@/types/Project';
 
-const RecentProjects = ({ projectList }: { projectList: Project[] }) => (
-  <Section
-    title={
-      <div className="flex items-baseline justify-between">
-        <div>
-          Recent <GradientText>Creations</GradientText>
-        </div>
-
-        <div className="text-sm">
-          <a href="/open-source">View all creations →</a>
-        </div>
-      </div>
-    }
-  >
+const AllProjects = ({ allProjects }: { allProjects: Project[] }) => (
+  <Section>
     <div className="flex flex-col gap-6">
-      {projectList.map((project) => (
+      {allProjects.map((project) => (
         <ProjectComponent
           key={project.title}
           name={project.title}
@@ -48,4 +35,4 @@ const RecentProjects = ({ projectList }: { projectList: Project[] }) => (
   </Section>
 );
 
-export { RecentProjects };
+export { AllProjects };

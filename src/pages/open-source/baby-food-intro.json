@@ -1,0 +1,28 @@
+{
+  "title": "Baby Food Introduction",
+  "description": "This API is part of the Baby Food Introduction application, which aims to help technological parents to keep track of the food introductions they make for their babies.",
+  "link": "https://github.com/comoser/baby-food-intro-api",
+  "img": {
+    "src": "/assets/images/project-github.png?nf_resize=fit&w=250&h=250",
+    "alt": "Baby Food Intro"
+  },
+  "order": 2,
+  "categories": [
+    {
+      "color": "LIME",
+      "name": "Open Source"
+    },
+    {
+      "color": "BLUE",
+      "name": "TypeScript"
+    },
+    {
+      "color": "ROSE",
+      "name": "Nest.js"
+    },
+    {
+      "color": "INDIGO",
+      "name": "Qwik"
+    }
+  ]
+}
