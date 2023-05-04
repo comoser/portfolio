@@ -16,6 +16,7 @@ const Newsletter = (props: INewsletterProps) => (
     <div className="w-full sm:w-5/12">
       <form
         data-netlify="true"
+        action="/newsletter-success"
         name="Newsletter"
         method="POST"
         className="flex rounded-full bg-slate-800 px-4 py-2 focus-within:ring-2 focus-within:ring-cyan-600 hover:ring-2 hover:ring-cyan-600"
@@ -23,6 +24,7 @@ const Newsletter = (props: INewsletterProps) => (
         <input
           type="text"
           name="email"
+          placeholder="Your email"
           className="w-full appearance-none bg-slate-800 focus:outline-none"
         />
 
