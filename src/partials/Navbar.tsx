@@ -14,7 +14,7 @@ const Navbar = () => (
         <Logo
           icon={
             <img
-              src="/assets/images/logo.png?nf_resize=fit&w=50&h=50"
+              src="/assets/images/logo.png?nf_resize=fit&w=150&h=150"
               alt="logo"
               height="50"
               width="50"
