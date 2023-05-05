@@ -38,3 +38,17 @@ public/assets/images/medium-icon.webp filter=lfs diff=lfs merge=lfs -text
 public/assets/images/article-interview.jpeg filter=lfs diff=lfs merge=lfs -text
 public/assets/images/article-rn-bg.jpeg filter=lfs diff=lfs merge=lfs -text
 public/assets/images/article-test-react.webp filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-async-communication.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-context.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/icon-medium.png filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-covid.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-mfe-2.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/icon-linkedin.png filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-comms-protocol.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-maintainable-tests.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/icon-github.png filter=lfs diff=lfs merge=lfs -text
+public/assets/images/talk-xgeeks-mfe.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-mfe-1.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-raycast-sr.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/article-test-react.jpeg filter=lfs diff=lfs merge=lfs -text
+public/assets/images/talk-require-mfe.jpeg filter=lfs diff=lfs merge=lfs -text

@@ -1,10 +1,6 @@
-import {
-  ColorTags,
-  Project as ProjectComponent,
-  Section,
-  Tags,
-} from 'astro-boilerplate-components';
+import { ColorTags, Section, Tags } from 'astro-boilerplate-components';
 
+import { Project as ProjectComponent } from '@/partials/Project';
 import type { Project } from '@/types/Project';
 
 const AllProjects = ({ allProjects }: { allProjects: Project[] }) => (

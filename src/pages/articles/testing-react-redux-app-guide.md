@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: Testing a React & Redux app — a comprehensive guide (part 1)
 description: These series of posts will, hopefully, give you a good overview and examples on how you can do unit and integration tests for a react & redux app, using Jest and Enzyme.
 pubDate: 2019-06-26T00:00:00Z
-imgSrc: '/assets/images/article-test-react.webp?nf_resize=fit&w=1080&h=720'
+imgSrc: '/assets/images/article-test-react.jpeg?nf_resize=fit&w=1080&h=720'
 imgAlt: 'Article image'
 ---
 

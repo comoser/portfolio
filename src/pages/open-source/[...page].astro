@@ -1,9 +1,8 @@
 ---
 import {
-  BlogGallery, ColorTags,
   NewerOlderPagination,
-  PaginationHeader, Project,
-  Section, Tags,
+  PaginationHeader,
+  Section,
 } from 'astro-boilerplate-components';
 import { Page } from 'astro';
 
@@ -31,7 +30,7 @@ interface Props {
 
 const { page } = Astro.props as Props;
 const titleSuffix = ` - ${AppConfig.site_name}`;
-const titleBase = `Open Source ${page.currentPage}`;
+const titleBase = `Open Source`;
 const title = titleBase + titleSuffix;
 const description =
   'Open Source Creations';

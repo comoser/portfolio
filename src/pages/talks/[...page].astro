@@ -1,19 +1,19 @@
 ---
 import type {
   FrontmatterPage,
-  IFrontmatter,
 } from 'astro-boilerplate-components';
 import {
-  BlogGallery,
   NewerOlderPagination,
   PaginationHeader,
   Section,
 } from 'astro-boilerplate-components';
 
+import { BlogGallery } from '@/partials/BlogGallery';
 import { CTA } from '@/partials/CTA';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
 import { sortByDate } from '@/utils/DateSortPredicate';
+import { IFrontmatter } from '@/types/FrontMatter';
 
 type GetStaticPaths = {
   paginate: any;
@@ -33,7 +33,7 @@ interface Props {
 
 const { page } = Astro.props as Props;
 const titleSuffix = ` - ${AppConfig.site_name}`;
-const titleBase = `Talk ${page.currentPage}`;
+const titleBase = `Talks`;
 const title = titleBase + titleSuffix;
 const description =
   'Talk list';

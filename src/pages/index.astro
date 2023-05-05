@@ -27,7 +27,7 @@ const { title } = AppConfig;
 const { description } = AppConfig;
 ---
 
-<Base head={{ title, description }}>
+<Base head={{ title: `${title} - Home`, description }}>
   <Hero />
   <RecentProjects projectList={lastThreeProjects} />
   <RecentArticles postList={lastThreePosts} />

@@ -1,11 +1,11 @@
 import {
   ColorTags,
   GradientText,
-  Project as ProjectComponent,
   Section,
   Tags,
 } from 'astro-boilerplate-components';
 
+import { Project as ProjectComponent } from '@/partials/Project';
 import type { Project } from '@/types/Project';
 
 const RecentProjects = ({ projectList }: { projectList: Project[] }) => (

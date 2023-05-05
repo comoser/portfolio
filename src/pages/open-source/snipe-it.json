@@ -3,7 +3,7 @@
   "description": "I assembled the necessary so that an instance of Snipe-IT (an IT assets management tool) could run in a docker-compose environment (since the documentation only had plain docker pages).",
   "link": "https://github.com/comoser/snipe-it-docker-compose",
   "img": {
-    "src": "/assets/images/project-github.webp?nf_resize=fit&w=250&h=250",
+    "src": "/assets/images/project-github.png?nf_resize=fit&w=250&h=250",
     "alt": "Snipe-IT Docker Compose"
   },
   "order": 6,
