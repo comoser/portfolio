@@ -3,12 +3,12 @@ import type {
   FrontmatterPage,
 } from 'astro-boilerplate-components';
 import {
-  NewerOlderPagination,
   PaginationHeader,
   Section,
 } from 'astro-boilerplate-components';
 
 import { BlogGallery } from '@/partials/BlogGallery';
+import { NewerOlderPagination } from '@/partials/NewerOlderPagination';
 import { CTA } from '@/partials/CTA';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
@@ -52,7 +52,7 @@ const description =
   </Section>
 
   <Section>
-    <NewerOlderPagination page={page} />
+    <NewerOlderPagination page={page} type="Talks" />
   </Section>
 
   <CTA />

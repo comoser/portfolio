@@ -54,3 +54,4 @@ public/assets/images/article-test-react.jpeg filter=lfs diff=lfs merge=lfs -text
 public/assets/images/talk-require-mfe.jpeg filter=lfs diff=lfs merge=lfs -text
 public/assets/images/hello.png filter=lfs diff=lfs merge=lfs -text
 public/assets/images/logo.png filter=lfs diff=lfs merge=lfs -text
+extensions/**/*.png filter=lfs diff=lfs merge=lfs -text

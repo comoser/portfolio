@@ -1,12 +1,12 @@
 ---
 import {
-  NewerOlderPagination,
   PaginationHeader,
   Section,
 } from 'astro-boilerplate-components';
 import { Page } from 'astro';
 
 import { AllProjects } from '@/partials/AllProjects';
+import { NewerOlderPagination } from '@/partials/NewerOlderPagination';
 import { CTA } from '@/partials/CTA';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
@@ -49,7 +49,7 @@ const description =
   </Section>
 
   <Section>
-      <NewerOlderPagination page={page} />
+      <NewerOlderPagination page={page} type="Projects" />
   </Section>
 
   <CTA />

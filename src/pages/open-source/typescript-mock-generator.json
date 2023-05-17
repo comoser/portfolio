@@ -1,0 +1,28 @@
+{
+  "title": "Typescript Mock Generator",
+  "description": "A raycast extension to help Typescript users. With TS mock generator, easily create mock data based on your Typescript interfaces!",
+  "link": "https://www.raycast.com/comoser/typescript-mock-generator",
+  "img": {
+    "src": "/assets/images/project-ts-mock-generator.png?nf_resize=fit&w=250&h=250",
+    "alt": "Typescript Mock Generator"
+  },
+  "order": 1,
+  "categories": [
+    {
+      "color": "LIME",
+      "name": "Open Source"
+    },
+    {
+      "color": "RED",
+      "name": "Raycast"
+    },
+    {
+      "color": "BLUE",
+      "name": "TypeScript"
+    },
+    {
+      "color": "SKY",
+      "name": "React"
+    }
+  ]
+}
