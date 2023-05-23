@@ -5,7 +5,6 @@ import sitemap from '@astrojs/sitemap';
 import robotsTxt from 'astro-robots-txt';
 import { astroImageTools } from 'astro-imagetools';
 
-// https://astro.build/config
 export default defineConfig({
   // base: '.', // Set a path prefix.
   site: 'https://davidalecrim.dev/', // Use to generate your sitemap and canonical URLs in your final build.
