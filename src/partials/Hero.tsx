@@ -74,11 +74,20 @@ const Hero = () => (
         </>
       }
       avatar={
-        <img
-          className="h-64 w-64 md:h-96 md:w-96"
-          src="/assets/images/avatar2.png?nf_resize=fit&h=330"
-          alt="Avatar image"
-        />
+        <div className="image-block hidden md:block">
+          <img
+            className="h-64 w-64 md:h-96 md:w-96"
+            src="/assets/images/avatar2.png?nf_resize=fit&h=330&w=330"
+            alt="Avatar image"
+          />
+          <div className="reflection">
+            <img
+              className="h-64 w-64 md:h-96 md:w-96"
+              src="/assets/images/avatar2.png?nf_resize=fit&h=330&w=330"
+              alt="Avatar image reflection"
+            />
+          </div>
+        </div>
       }
       socialButtons={
         <>
