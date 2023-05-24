@@ -1,0 +1,28 @@
+{
+  "title": "Surfs Up",
+  "description": "Search the weather and the ocean conditions in your favorite surfing spots",
+  "link": "https://www.raycast.com/comoser/surfs-up",
+  "img": {
+    "src": "/assets/images/project-surfs-up.png?nf_resize=fit&w=250&h=250",
+    "alt": "Surfs Up"
+  },
+  "order": 1,
+  "categories": [
+    {
+      "color": "LIME",
+      "name": "Open Source"
+    },
+    {
+      "color": "RED",
+      "name": "Raycast"
+    },
+    {
+      "color": "BLUE",
+      "name": "TypeScript"
+    },
+    {
+      "color": "SKY",
+      "name": "React"
+    }
+  ]
+}
