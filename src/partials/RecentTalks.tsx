@@ -17,7 +17,7 @@ const RecentTalks = (props: IRecentTalksProps) => (
         </div>
 
         <div className="text-sm">
-          <a href="/articles">View all talks →</a>
+          <a href="/talks">View all talks →</a>
         </div>
       </div>
     }
