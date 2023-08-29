@@ -1,0 +1,36 @@
+{
+  "title": "intelli-mate",
+  "description": "Supercharge your workplace productivity with collaboration enabled AI. Data is fully secured. The missing AI workplace tool for all enterprise needs.",
+  "link": "https://github.com/xgeekshq/intelli-mate",
+  "img": {
+    "src": "/assets/images/project-github.png?nf_resize=fit&w=250&h=250",
+    "alt": "intelli-mate"
+  },
+  "order": 1,
+  "categories": [
+    {
+      "color": "LIME",
+      "name": "Open Source"
+    },
+    {
+      "color": "FUCHSIA",
+      "name": "AI"
+    },
+    {
+      "color": "BLUE",
+      "name": "TypeScript"
+    },
+    {
+      "color": "ROSE",
+      "name": "Langchain"
+    },
+    {
+      "color": "INDIGO",
+      "name": "Next.js"
+    },
+    {
+      "color": "RED",
+      "name": "Nest.js"
+    }
+  ]
+}
