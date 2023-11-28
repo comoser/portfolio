@@ -13,7 +13,7 @@ const Hero = () => (
       }
       description={
         <>
-          I'm a staff product engineer with 8+ years in the industry, currently
+          I'm a staff product engineer with 9+ years in the industry, currently
           working at{' '}
           <a className="text-cyan-400 hover:underline" href="https://xgeeks.io">
             xgeeks
