@@ -2,10 +2,8 @@
 layout: '@/templates/BasePost.astro'
 title: 'Building Intelli-mate: Real-World Tech Tales by David Alecrim - Lisbon GenAI Community Meetup #5'
 description:
-  Join me for a candid chat on the making of intelli-mate, a collaborative AI chat tool for businesses.
-  Let's dive into the nitty-gritty of our journey— the hiccups, learnings, and victories in developing features like multi-user interactions and document queries.
+  Let's dive into the nitty-gritty of our journey— the hiccups, learnings, and victories in developing features like multi-user interactions and document queries for a collaborative enterprise AI chat solution.
   Discover how we tackled everyday tech challenges to enhance team communication and knowledge sharing.
-  This talk offers a down-to-earth peek into our tech trials and triumphs, sharing insights that resonate with developers and AI enthusiasts navigating their coding adventures.
 pubDate: 2024-03-20T00:00:00Z
 imgSrc: '/assets/images/talk-gen-ai-intelli-mate.jpg?nf_resize=fit&w=480&h=360'
 imgAlt: 'Talk image'
