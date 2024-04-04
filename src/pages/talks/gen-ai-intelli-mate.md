@@ -1,6 +1,6 @@
 ---
 layout: '@/templates/BasePost.astro'
-title: 'Building Intelli-mate: Real-World Tech Tales by David Alecrim - Lisbon GenAI Community Meetup #5'
+title: 'Building Intelli-mate: Real-World Tech Tales - Lisbon GenAI Community Meetup #5'
 description:
   Let's dive into our journey of developing features like multi-user interactions and document queries for a collaborative enterprise AI chat solution.
 pubDate: 2024-03-20T00:00:00Z
