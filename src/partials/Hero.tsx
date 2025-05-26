@@ -76,17 +76,11 @@ const Hero = () => (
       avatar={
         <div className="image-block hidden md:block">
           <img
-            className="h-64 w-64 md:h-96 md:w-96"
-            src="/assets/images/avatar2.png?nf_resize=fit&h=384&w=384"
+            className="h-64 w-64 rounded-full object-cover shadow-xl md:h-96 md:w-96"
+            style={{ boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.3)' }}
+            src="/assets/images/avatar.jpg?nf_resize=fit&h=1000&w=1000"
             alt="Avatar image"
           />
-          <div className="reflection">
-            <img
-              className="h-64 w-64 md:h-96 md:w-96"
-              src="/assets/images/avatar2.png?nf_resize=fit&h=384&w=384"
-              alt="Avatar image reflection"
-            />
-          </div>
         </div>
       }
       socialButtons={
