@@ -6,6 +6,7 @@ import { Hero } from '@/partials/Hero';
 import { RecentProjects } from '@/partials/RecentProjects';
 import { RecentArticles } from '@/partials/RecentArticles';
 import { RecentTalks } from '@/partials/RecentTalks';
+import { RecentWorkExperience } from '@/partials/RecentWorkExperience';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
 import { sortByDate } from '@/utils/DateSortPredicate';
@@ -19,6 +20,10 @@ const allTalks = await Astro.glob<IFrontmatter>('./talks/*.md');
 const sortedTalks = sortByDate(allTalks);
 const lastThreeTalks = sortedTalks.slice(0, 3);
 
+const allWorkExperience = await Astro.glob('./work-experience/*.json');
+const sortedWorkExperience = sortByOrder(allWorkExperience);
+const lastThreeWorkExperience = sortedWorkExperience.slice(0, 3);
+
 const allProjects = await Astro.glob('./open-source/*.json');
 const sortedProjects = sortByOrder(allProjects);
 const lastThreeProjects = sortedProjects.slice(0, 3);
@@ -29,6 +34,7 @@ const { description } = AppConfig;
 
 <Base head={{ title: `${title} - Home`, description }}>
   <Hero />
+  <RecentWorkExperience experienceList={lastThreeWorkExperience} />
   <RecentProjects projectList={lastThreeProjects} />
   <RecentArticles postList={lastThreePosts} />
   <RecentTalks talkList={lastThreeTalks} />

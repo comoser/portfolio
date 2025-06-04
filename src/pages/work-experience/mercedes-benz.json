@@ -1,0 +1,40 @@
+{
+  "title": "Mercedes-Benz - Software Engineer",
+  "description": "Worked on developing cloud solutions to support Mercedes-Benz's ecosystem operations, including frontend web applications, APIs, and CLI tools.",
+  "link": "#",
+  "img": {
+    "src": "/assets/images/work-mercedes.jpeg?nf_resize=fit&w=250&h=250",
+    "alt": "Mercedes-Benz logo"
+  },
+  "order": 5,
+  "categories": [
+    {
+      "color": "BLUE",
+      "name": "React"
+    },
+    {
+      "color": "BLUE",
+      "name": "TypeScript"
+    },
+    {
+      "color": "GRAY",
+      "name": "Golang"
+    },
+    {
+      "color": "AMBER",
+      "name": "Java"
+    },
+    {
+      "color": "TEAL",
+      "name": "Spring Boot"
+    },
+    {
+      "color": "VIOLET",
+      "name": "Kubernetes"
+    },
+    {
+      "color": "PINK",
+      "name": "Docker"
+    }
+  ]
+}

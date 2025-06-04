@@ -1,0 +1,28 @@
+{
+  "title": "tb.lx - Senior Software Engineer",
+  "description": "Worked on a revolutionizing platform for heavy duty electrical truck charging and route planning in the USA, focusing on backend development and scalable infrastructure solutions.",
+  "link": "#",
+  "img": {
+    "src": "/assets/images/work-tblx.jpeg?nf_resize=fit&w=250&h=250",
+    "alt": "tb.lx logo"
+  },
+  "order": 2,
+  "categories": [
+    {
+      "color": "GREEN",
+      "name": "Spring Boot"
+    },
+    {
+      "color": "PURPLE",
+      "name": "Kotlin"
+    },
+    {
+      "color": "PINK",
+      "name": "Docker"
+    },
+    {
+      "color": "VIOLET",
+      "name": "Kubernetes"
+    }
+  ]
+}

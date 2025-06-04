@@ -1,0 +1,32 @@
+{
+  "title": "Cazoo - Senior Software Engineer",
+  "description": "Contributed to revolutionizing the used car renting experience through innovative web technologies and user-centric design at one of Europe's leading online car retailers, working on the full stack of the application.",
+  "link": "#",
+  "img": {
+    "src": "/assets/images/work-cazoo.jpeg?nf_resize=fit&w=250&h=250",
+    "alt": "Cazoo logo"
+  },
+  "order": 4,
+  "categories": [
+    {
+      "color": "BLUE",
+      "name": "React"
+    },
+    {
+      "color": "BLUE",
+      "name": "TypeScript"
+    },
+    {
+      "color": "FUCHSIA",
+      "name": "Node.js"
+    },
+    {
+      "color": "ORANGE",
+      "name": "AWS"
+    },
+    {
+      "color": "VIOLET",
+      "name": "Serverless"
+    }
+  ]
+}

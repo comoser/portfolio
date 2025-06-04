@@ -1,0 +1,28 @@
+{
+  "title": "Saloodo (DHL) - Frontend Engineer",
+  "description": "Worked on innovative logistics and transportation solutions for DHL's digital platform on the GCC (Gulf Cooperation Council) area, focusing on user experience and scalable frontend architecture (web and mobile).",
+  "link": "#",
+  "img": {
+    "src": "/assets/images/work-saloodo.jpeg?nf_resize=fit&w=250&h=250",
+    "alt": "Saloodo DHL logo"
+  },
+  "order": 6,
+  "categories": [
+    {
+      "color": "BLUE",
+      "name": "React"
+    },
+    {
+      "color": "PURPLE",
+      "name": "Redux"
+    },
+    {
+      "color": "YELLOW",
+      "name": "React Native"
+    },
+    {
+      "color": "BLUE",
+      "name": "TypeScript"
+    }
+  ]
+}

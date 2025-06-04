@@ -1,0 +1,60 @@
+{
+  "title": "xgeeks - Staff Software Engineer",
+  "description": "Assisting large companies in expanding their operations and producing quality products. Help align the engineering direction of xgeeks. Providing mentorship and direction to engineers at xgeeks. Develop and contribute to open-source projects in the community.",
+  "link": "#",
+  "img": {
+    "src": "/assets/images/work-xgeeks.jpeg?nf_resize=fit&w=250&h=250",
+    "alt": "xgeeks logo"
+  },
+  "order": 1,
+  "categories": [
+    {
+      "color": "BLUE",
+      "name": "React"
+    },
+    {
+      "color": "EMERALD",
+      "name": "TypeScript"
+    },
+    {
+      "color": "ORANGE",
+      "name": "Next.js"
+    },
+    {
+      "color": "VIOLET",
+      "name": "Remix"
+    },
+    {
+      "color": "RED",
+      "name": "Nest.js"
+    },
+    {
+      "color": "GREEN",
+      "name": "Node.js"
+    },
+    {
+      "color": "TEAL",
+      "name": "Spring Boot"
+    },
+    {
+      "color": "PURPLE",
+      "name": "Kotlin"
+    },
+    {
+      "color": "GRAY",
+      "name": "GoLang"
+    },
+    {
+      "color": "AMBER",
+      "name": "Kubernetes"
+    },
+    {
+      "color": "PINK",
+      "name": "Docker"
+    },
+    {
+      "color": "FUCHSIA",
+      "name": "AI/ML"
+    }
+  ]
+}

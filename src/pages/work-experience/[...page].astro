@@ -1,0 +1,53 @@
+---
+import {
+  PaginationHeader,
+  Section,
+} from 'astro-boilerplate-components';
+import { Page } from 'astro';
+
+import { AllWorkExperience } from '@/partials/AllWorkExperience';
+import { NewerOlderPagination } from '@/partials/NewerOlderPagination';
+import { CTA } from '@/partials/CTA';
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+import { sortByOrder } from '@/utils/OrderSortPredicate';
+
+type GetStaticPaths = {
+  paginate: any;
+}; // Overrides `GetStaticPathsOptions` types from Astro
+
+export async function getStaticPaths({ paginate }: GetStaticPaths) {
+  const allWorkExperience = await Astro.glob('./*.json');
+  const sortedWorkExperience = sortByOrder(allWorkExperience);
+
+  // Return a paginated collection of paths for all work experience
+  return paginate(sortedWorkExperience, { pageSize: 6 });
+}
+
+interface Props {
+  page: Page;
+}
+
+const { page } = Astro.props as Props;
+const titleSuffix = ` - ${AppConfig.site_name}`;
+const titleBase = `Work Experience`;
+const title = titleBase + titleSuffix;
+const description = 'Work Experience list';
+---
+
+<Base head={{ title, description }}>
+  <Section>
+    <PaginationHeader
+      title='My work experience'
+      description='Throughout my 10+ years in the industry, I have had the privilege to work with amazing teams and contribute to impactful projects across various companies and technologies.'
+    />
+  </Section>
+
+  <AllWorkExperience allWorkExperience={page.data} />
+
+  <Section>
+    <NewerOlderPagination page={page} type="Work Experience" />
+  </Section>
+
+  <CTA />
+</Base> 

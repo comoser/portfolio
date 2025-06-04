@@ -1,7 +1,7 @@
 import type { FrontmatterPage } from '@/types/FrontMatter';
 
 type INewerOlderPaginationProps = {
-  type: 'Projects' | 'Articles' | 'Talks';
+  type: 'Projects' | 'Articles' | 'Talks' | 'Work Experience';
   page: FrontmatterPage;
 };
 

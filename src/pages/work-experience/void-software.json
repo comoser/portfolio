@@ -1,0 +1,36 @@
+{
+  "title": "void software - Frontend Engineer",
+  "description": "Started my professional journey as a junior frontend engineer, learning the fundamentals of web development and building the foundation of my engineering career moving up to mid-level engineer.",
+  "link": "#",
+  "img": {
+    "src": "/assets/images/work-void.jpeg?nf_resize=fit&w=250&h=250",
+    "alt": "void software logo"
+  },
+  "order": 7,
+  "categories": [
+    {
+      "color": "YELLOW",
+      "name": "JavaScript"
+    },
+    {
+      "color": "GRAY",
+      "name": "jQuery"
+    },
+    {
+      "color": "AMBER",
+      "name": "Marionette.js"
+    },
+    {
+      "color": "ORANGE",
+      "name": "Backbone.js"
+    },
+    {
+      "color": "BLUE",
+      "name": "React"
+    },
+    {
+      "color": "GREEN",
+      "name": "React Native"
+    }
+  ]
+}

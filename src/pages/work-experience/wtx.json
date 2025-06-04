@@ -1,0 +1,32 @@
+{
+  "title": "WTX - Senior Software Engineer",
+  "description": "Worked on developing a used truck selling platform targeted at the EMEA (Europe, Middle East, and Africa) market, leveraging the Mercedes-Benz brand to create a trusted marketplace for commercial vehicles. Worked on the full stack of the application.",
+  "link": "#",
+  "img": {
+    "src": "/assets/images/work-wtx.jpeg?nf_resize=fit&w=250&h=250",
+    "alt": "WTX logo"
+  },
+  "order": 3,
+  "categories": [
+    {
+      "color": "BLUE",
+      "name": "Typescript"
+    },
+    {
+      "color": "EMERALD",
+      "name": "Nest.js"
+    },
+    {
+      "color": "ORANGE",
+      "name": "Next.js"
+    },
+    {
+      "color": "BLUE",
+      "name": "React"
+    },
+    {
+      "color": "VIOLET",
+      "name": "Kubernetes"
+    }
+  ]
+}
